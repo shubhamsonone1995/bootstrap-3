@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-bar{
+padding: 0px 80px;
+}
+@media (max-width:768px){
+    .menu-bar{
+        padding: 0px 20px;
+        }
+}
+.navbar-nav{
+    margin-left: 130px;
+}
+.navbar-brand{
+    font-size: 32px;
+    font-weight: bold;
+}
+.navbar-nav li{
+    padding: 0 12px;
+}
+
+.nav-item a{
+    color: brown!important;
+    font-weight: bold;
+    
+}
+.nav-item a:hover{
+    color:blue!important;
+    
+}
+.menubar-btn{
+    padding: 5px 30px;
+    border-radius: 22px;
+    margin: 10px 0px;
+}
+.section-one{
+    height: 500px;
+    background-color: rgb(45, 45, 100);
+  
+    
+}
+.section-one-left{
+    margin-top: 150px;   
+}
+@media(max-width:768px){
+    .section-one-left{
+        margin-top: 20px;
+    } 
+}
+.section-one-img{
+    margin-top: 30px;
+    transition:transform 2s ease,color 3s ease-in-out ;
+}
+.section-one-img:hover{
+    transform: translateY(-20px);
+}
+/* section one end */
+.client-img{
+    display: flex;
+    justify-content: center;
+}
+.client-img img{
+    width: 90px; 
+    transition:transform 2s ease,color 3s ease-in-out ;
+}
+.client-img img:hover{
+    transform: translateY(-20px);
+}
+/* about us */
+.About h1{
+    display: inline-block;
+border-bottom: 2px solid blue;
+}
+.numbering{
+    font-weight: bold;
+    color: blue;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.section-two{
+    padding: 50px 0px;
+    background-color: rgb(241, 248, 247);
+}
+.why-us-img{
+    transition:transform 2s ease,color 3s ease-in-out ;
+}
+.why-us-img:hover{
+    transform: translateY(-20px);
+    box-shadow: 2px -2px 2px 2px ;
+}
+.progress-label{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(20, 20, 27);
+}
+.logo-data{
+   background-color: white;
+    width: 22.8%;
+    margin: 0px 1%;
+    padding: 20px 20px;
+    transition:transform 2s ease,color 3s ease-in-out ;
+
+}
+.logo-data:hover{
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 2px 2px ;
+}
+
+@media(max-width:768px){
+    .logo-data{
+        width: 90%;
+        margin-top: 15px;
+    }
+}
+.logo-data h3,p{
+text-align: justify;
+
+}
+#Services{
+    background-color: rgb(240, 239, 236);
+}
+.section-three-header h1{
+    display: inline-block;
+    color: rgb(66, 66, 129);
+    border-bottom: 2px solid rgb(37, 37, 71);
+}
+.call-to-action{
+    height: 400px;
+    content: "";
+    
+    background-image: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),url(/img/cta-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.content{
+    font-size: 20px;
+}
+ .call-to-action-button{
+     color: white;
+     background-color:rgb(65, 180, 109);
+     margin-top: 50px;
+     padding: 7px 25px;
+     border-radius: 22px;
+     border:3px solid white;
+ }
+ .call-to-action-button:hover{
+     cursor: pointer;
+     background-color: rgb(51, 175, 246);
+     
+ }
+ .portfolio-img ul{
+display: flex;
+width: 40%;
+margin: auto;
+justify-content: center;
+
+ }
+ .portfolio-img ul li{
+     list-style: none;
+     padding: 5px 25px;
+     margin: 5px 10px;
+     font-weight: bold;
+     border-radius: 22px;
+ }
+ .portfolio-img ul li:hover{
+    background-color: cornflowerblue;
+ }
+ .portfolio-gellury{
+     display: flex;
+     object-fit: cover;
+     
+ }
+ .portfolio-gellury img{
+    transition:transform 2s ease,color 3s ease-in-out ;
+ }
+ .portfolio-gellury img:hover{
+    transform: translateY(-20px);
+ }
+ .team{
+     background-color: rgb(221, 217, 217);
+ }
+ /* .team-head{
+    display: inline-block!important;
+    border-bottom: 2px solid rgb(23, 23, 48);
+ } */
+  .sub-div{
+      width: 48%;
+      margin: 1%;
+      transition:transform 2s ease,color 3s ease-in-out ;
+  } 
+  @media(max-width:768px){
+    .sub-div{ width: 90%;
+    }
+    .social-logo{
+        margin: 0px 0px;
+    } 
+} 
+  .sub-div:hover{
+    transform: translateY(-20px);  
+  }
+  .social-logo{
+      margin: 0px 5px;
+      padding: 7px 10px;
+      border-radius: 40px;
+      background-color: rgb(243, 220, 220)
+  }
+  .social-logo:hover{
+      background-color: burlywood;
+  }
+  @media(max-width:768px){
+    .social-logo{
+        margin: 0px 0px;
+    }  
+    .team-img{
+        margin-top: 50px;
+    }
+} 
+  .pricing-head{
+      color: rgb(73, 73, 156);
+  }
+  .pricing-button{
+      padding: 10px 20px;
+      border-radius: 22px;
+      border: 0.5px solid blue;
+  }
+  .pricing-button:hover{
+      background-color: rgb(100, 100, 245);
+      cursor: pointer;
+      color: white;
+     
+  }
+  .money{
+      font-size: 60px;
+      font-weight: 400;
+      color: rgb(36, 36, 83);
+  }
+  .price-div{
+      background-color: white;
+      box-shadow: -0.5px -0.5px 4px 3px;
+      width: 31.2%;
+      margin: 1%;
+      padding: 0px 50px;
+      transition:transform 2s ease,color 3s ease-in-out ;
+      line-height: 1.8;
+  }
+  .price-div:hover{
+    transform: translateY(-20px); 
+    
+  }
+  @media(max-width:768px){
+    .price-div{
+        width: 90%;
+    }
+  }
+  .content-header{
+      color: rgb(68, 68, 136);
+      border-bottom: 3px solid rgb(31, 31, 66);
+  }
+  .question-name{
+      color: rgb(42, 42, 119);
+      font-weight: bold;
+      font-size: 18px;
+  }
+  .question{
+      background-color: rgb(242, 247, 248);
+  }
+  .introductory-sentence{
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .Contact-button{
+      background-color: none;
+      border: 3px solid blue;
+      padding: 7px 20px;
+      border-radius: 22px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  .Contact-button:hover{
+      background-color: blue;
+      color: white;
+      
+  }
+  .Our-Newsletter{
+      background-color: rgb(239, 242, 248);
+  }
+  .sham{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 18px;
+      padding: 7px 0px;
+
+  }
+  .news-input{
+      width: 50%;
+      padding: 10px 0px;
+      border-radius: 22px;
+      border: none;
+  }
+  .news-button{
+      position: relative;
+      left: -40px;
+    padding: 10px 30px; 
+    border-radius: 22px;
+    border: none;
+    background-color: rgb(18, 18, 155);
+    color: white;
+
+  }
+  .news-button:hover{
+      background-color: rgb(106, 106, 238);
+  }
+  .wood{
+      
+      font-size: 12px;
+      margin-right: 5px;
+      
+  }
+  .useful-link p a{
+      text-decoration: none;
+      color:gray;
+      font-size: 14px;
+  }
+  .useful-link p a:hover{
+      color: rgb(23, 23, 163);
+  }
+  .adress{
+    color:gray;
+    font-size: 14px;
+  }
+  .footer{
+      background-color: rgb(42, 42, 93);
+      color: white;
+      height: 100px;
+  }
+  .other{
+      text-decoration: none;
+      color: darkgray;
+  }
